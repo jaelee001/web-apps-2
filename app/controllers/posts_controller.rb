@@ -12,7 +12,6 @@ class PostsController < ApplicationController
     @post = Post.new(params["post"])
     @post.save
     redirect_to "/posts"
-
   end
 
 
